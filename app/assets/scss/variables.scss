@@ -1,0 +1,12 @@
+$sidebarWidth: 370px;
+$sidebarTopHeight: 55px;
+$sidebarTopPadding: 10px;
+$noteTitleInputHeight: 50px;
+
+$editorWidth: calc(100% - #{$sidebarWidth});
+$editorHeight: calc(100% - #{$noteTitleInputHeight + 42});
+
+$fontFamily: 'Roboto', sans-serif;
+
+/* colors */
+$primary: #0ab39b; 

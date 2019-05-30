@@ -1,0 +1,44 @@
+{
+  "notes": [
+    {
+      "title": "Useful Git Commands",
+      "text": "Undo latest commit\nPreserves local changes:\ngit reset --soft HEAD~1\nDeletes local changes. (Be caref...",
+      "html": "<p><strong>Undo latest&nbsp;commit</strong></p><p>Preserves local changes:</p><pre class=\"ql-syntax\" spellcheck=\"false\">git reset --soft HEAD~1\n</pre><p>Deletes local changes. (Be careful!)</p><pre class=\"ql-syntax\" spellcheck=\"false\">git reset --hard HEAD~1\n</pre><p><br></p><p><strong>Modify the most recent commit</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">git commit --amend\n</pre><p><br></p><p><strong>Revert local changes</strong></p><p>Revert tracked changes:</p><pre class=\"ql-syntax\" spellcheck=\"false\">git checkout .\n</pre><p>Remove untracked files and folders:</p><pre class=\"ql-syntax\" spellcheck=\"false\">git clean -fd\n</pre><p><br></p><p><strong>Show non-pushed commits</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">git log origin/master..HEAD\n</pre>",
+      "created_at": "2015-03-25 19:02:01",
+      "updated_at": "2019-05-30T14:20:12.970Z",
+      "id": 1
+    },
+    {
+      "title": "Shopping List",
+      "text": "Floor cleaner\nPaper towels\nDishwasher detergent\nLaundry detergent\nEggs\nMilk\nBeer\nJuice\nBread\nTrash b...",
+      "html": "<ul><li>Floor cleaner</li><li>Paper towels</li><li><span style=\"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);\">Dishwasher detergent</span></li><li><span style=\"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51);\">Laundry detergent</span></li><li>Eggs</li><li>Milk</li><li>Beer</li><li>Juice</li><li>Bread</li><li>Trash bags</li></ul>",
+      "created_at": "2015-03-25 19:02:01",
+      "updated_at": "2019-05-30T14:08:49.243Z",
+      "id": 2
+    },
+    {
+      "title": "To-do List",
+      "text": "Email team for updates\nSend out meeting request\nMake a presentation for next meeting\nBook conference...",
+      "html": "<ol><li>Email team for updates</li><li>Send out meeting request</li><li>Make a presentation for next meeting</li><li>Book conference room</li><li>Update project plan</li></ol>",
+      "created_at": "2015-03-25 19:02:01",
+      "updated_at": "2019-05-04T13:47:54.073Z",
+      "id": 3
+    },
+    {
+      "title": "Meeting Notes",
+      "text": "Maroni clench society bat abbott mugsy. Strange bartok batcave red lynx tim justice shrike. Metallo ...",
+      "html": "<p>Maroni clench society bat abbott mugsy. Strange bartok batcave red lynx tim justice shrike. Metallo batgirl a bartok grayson creeper snake bullock mad alcor. Solomon ivy atkins america penguin batcave deathstroke alcor, rumor joe? Poison red copperhead calendar clayface zatanna zucco kane kyle jester owl night falcone. Doom killer moth aiko alfred fairchild. Harlequin rose huntress pit doom, jim batman elongated. Catwoman superman sinestro arkham gearhead zucco lucius, doom maroni nyssa. Elongated bennett batarang echo black cypher tally czonk.</p>",
+      "created_at": "2015-03-25 19:02:01",
+      "updated_at": "2019-05-30T14:11:09.383Z",
+      "id": 4
+    },
+    {
+      "title": "Great Quotes",
+      "text": "\"You don't understand the quality of light or the preciousness of it, until you've spent time in the...",
+      "html": "<p>\"You don't understand the quality of light or the preciousness of it, until you've spent time in the darkness\" - <strong>Barret Martin</strong></p>",
+      "created_at": "2019-02-24T16:19:25.527Z",
+      "updated_at": "2019-05-30T14:06:06.764Z",
+      "id": 5
+    }
+  ]
+}
