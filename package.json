@@ -2,8 +2,6 @@
   "name": "bonny-note",
   "version": "1.0.0",
   "description": "BonnyNote - A note application",
-  "main": "index.js",
-  "proxy": "http://localhost:5000/",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "api": "json-server db.json --port 5000 --routes routes.json",
@@ -12,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Feyyaz Akkuş",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-loader": "7.1.5",
