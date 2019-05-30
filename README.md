@@ -4,11 +4,19 @@ It's a simple note application that built with Javascript & Webpack. I used [Qui
 
 Also, I created a fake rest API with  [json-server](https://github.com/typicode/json-server) library.
 
-## Usage
+## Features
+* Add Note
+* Update Note
+* Delete Note
+* Toggle full-screen
+
+## Installation and Usage
 ```
 git clone https://github.com/feyyazakkus/bonny-note.git
 npm intall
 npm start
 ```
 
-(https://github.com/feyyazakkus/vue-todo-app/blob/master/app-image.png?raw=true)
+## How does it look?
+
+![BonnyNote](https://github.com/feyyazakkus/bonny-note/blob/master/app-image.png?raw=true)
