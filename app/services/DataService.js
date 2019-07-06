@@ -59,6 +59,6 @@ const DataService = {
         }
         return response.json();
     }
-}
+};
 
 export default DataService;

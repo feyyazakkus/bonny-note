@@ -11,7 +11,7 @@ const start = () => {
     setTimeout(() => {
         app.init();
     }, 1000);
-}
+};
 
 if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", start);

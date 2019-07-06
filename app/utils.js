@@ -16,7 +16,7 @@ export const debounce = function(func, wait, immediate) {
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
     };
-}
+};
 
 /**
  * Abbreviations of months
@@ -27,7 +27,7 @@ const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 
 /**
  * Returns relative date from iso string
- * @param {String} isoString 
+ * @param {String} isoString
  */
 export const toRelativeDate = function(isoString) {
     const now = Date.now() + new Date().getTimezoneOffset() * 60000;
@@ -70,7 +70,7 @@ export const toRelativeDate = function(isoString) {
             return `${monthNames[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
         }
     }
-}
+};
 
 /**
  * Add class 'selected' to note item
@@ -82,4 +82,4 @@ export const addSelectedClass = function(target) {
         el.classList.remove('selected');
     });
     target.classList.add('selected');
-}
+};
